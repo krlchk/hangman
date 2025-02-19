@@ -11,9 +11,10 @@ function App() {
   return (
     <div className="m-auto flex max-w-[800px] flex-col items-center gap-8">
       <div className="text-center text-4xl">Lose win</div>
-      <div>
-        <HangmanDrawning />
-        <HangmanWord />
+
+      <HangmanDrawning />
+      <HangmanWord />
+      <div className="self-stretch">
         <Keyboard />
       </div>
     </div>
